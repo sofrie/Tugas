@@ -28,20 +28,20 @@
       </controlProperties>
     </control>
     <control controlID="26" controlTypeID="com.balsamiq.mockups::Canvas" x="583" y="363" w="343" h="140" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="-1"/>
-    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="618" y="407" w="-1" h="-1" measuredW="76" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Choose%20file%20%3A%20</text>
-      </controlProperties>
-    </control>
-    <control controlID="28" controlTypeID="com.balsamiq.mockups::TextInput" x="700" y="405" w="211" h="-1" measuredW="79" measuredH="26" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::TextInput" x="700" y="405" w="211" h="-1" measuredW="79" measuredH="26" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="29" controlTypeID="com.balsamiq.mockups::Button" x="722" y="461" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Button" x="722" y="461" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <menuIcon>false</menuIcon>
         <text>Upload</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Button" x="598" y="405" w="-1" h="-1" measuredW="98" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Choose%20file%20%3A%20</text>
       </controlProperties>
     </control>
   </controls>
