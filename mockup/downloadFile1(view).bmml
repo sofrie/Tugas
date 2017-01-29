@@ -91,5 +91,12 @@
         <text>Export%20to%20Excel</text>
       </controlProperties>
     </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Tooltip" x="1343" y="178" w="72" h="51" measuredW="81" measuredH="62" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <text>Profile%0ALogout</text>
+        <tooltipDirection>NE</tooltipDirection>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>

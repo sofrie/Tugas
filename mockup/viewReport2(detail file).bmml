@@ -5,11 +5,11 @@
         <text>A%20Web%20Page%0Ahttp%3A//</text>
       </controlProperties>
     </control>
-    <control controlID="30" controlTypeID="com.balsamiq.mockups::DataGrid" x="796" y="228" w="613" h="347" measuredW="517" measuredH="111" zOrder="1" locked="false" isInGroup="-1">
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::DataGrid" x="796" y="288" w="613" h="288" measuredW="626" measuredH="111" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
         <hLines>true</hLines>
         <selectedIndex>0</selectedIndex>
-        <text>File%20Name%20%5E%2C%20Date%20%5E%2CTotal%20Cost%20%5E%2C%20Balance%2C%20Wrong%2C%20Status%20%5E%2CAction%0AFile%201%2C01/01/2017%2C%20Rp.%20xxxxxxxxxxxxx%2C%20%20100/100%2C0/100%2C%20%20%2C%20View%0AFile%201%2C11/01/2017%2C%20Rp.%20xxxxxxxxxxxxx%2C%20%2090/100%2C10/100%2C%20%20%2C%20View%0AFile%201%2C25/01/2017%2C%20Rp.%20xxxxxxxxxxxxx%2C%20%2097/100%2C3/100%2C%20%20%2C%20View</text>
+        <text>Row%28s%29%20%5E%2C%20Package%20ID%20%5E%2CWeight%20%28gram%29%20%5E%2C%20Price%20%5E%2C%20Insurance%20%5E%2C%20AWB%20%5E%2CStatus%2CAction%0A1%2C001%2C100%2C%20Rp.%20xxxxxxxxxxxxx%2C%20010%2C%20100%2C%20%20%20%2C%20Detail%0A2%2C002%2C200%2C%20Rp.%20xxxxxxxxxxxxx%2C%20020%2C%20200%2C%20%20%20%2C%20Detail%0A3%2C003%2C300%2C%20Rp.%20xxxxxxxxxxxxx%2C%20030%2C%20300%2C%20%20%20%2C%20Detail</text>
       </controlProperties>
     </control>
     <control controlID="32" controlTypeID="com.balsamiq.mockups::Icon" x="1331" y="583" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
@@ -24,17 +24,17 @@
         <icon>RightArrowIcon%7Csmall</icon>
       </controlProperties>
     </control>
-    <control controlID="34" controlTypeID="com.balsamiq.mockups::Icon" x="1299" y="255" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Icon" x="1319" y="313" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <icon>CheckMarkIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
-    <control controlID="35" controlTypeID="com.balsamiq.mockups::Icon" x="1299" y="316" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Icon" x="1319" y="374" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <icon>CheckMarkIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
-    <control controlID="36" controlTypeID="com.balsamiq.mockups::Icon" x="1299" y="286" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Icon" x="1319" y="344" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <icon>XIcon%7Cxsmall</icon>
       </controlProperties>
@@ -107,6 +107,47 @@
         <align>left</align>
         <text>Profile%0ALogout</text>
         <tooltipDirection>NE</tooltipDirection>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Label" x="795" y="185" w="146" h="-1" measuredW="128" measuredH="21" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>File%20name%09%3A%20File1</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Label" x="1086" y="187" w="187" h="-1" measuredW="170" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Date%09%09%3A%2010/10/2016</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::Label" x="795" y="208" w="194" h="-1" measuredW="180" measuredH="21" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Total%20Cost%09%3A%20Rp.%20xxxxxxxx</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Label" x="1086" y="213" w="187" h="-1" measuredW="182" measuredH="21" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Status%09%09%3A%20Not%20Balanced</text>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Label" x="795" y="252" w="111" h="-1" measuredW="103" measuredH="21" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Filter%09%09%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::ComboBox" x="906" y="250" w="98" h="-1" measuredW="45" measuredH="24" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>closed</state>
+        <text>All%0ABalanced%0ANot%20Balanced</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::HRule" x="786" y="233" w="663" h="-1" measuredW="100" measuredH="10" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10066329</color>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Label" x="1086" y="252" w="172" h="-1" measuredW="165" measuredH="21" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Total%20data%09%3A%20100%20row%28s%29</text>
       </controlProperties>
     </control>
   </controls>
