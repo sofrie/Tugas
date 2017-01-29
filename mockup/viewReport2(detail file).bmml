@@ -150,5 +150,12 @@
         <text>Total%20data%09%3A%20100%20row%28s%29</text>
       </controlProperties>
     </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Button" x="796" y="591" w="110" h="24" measuredW="92" measuredH="27" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>38362</color>
+        <size>16</size>
+        <text>Download</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>

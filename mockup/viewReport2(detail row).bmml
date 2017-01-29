@@ -44,7 +44,7 @@
         <borderColor>13421772</borderColor>
       </controlProperties>
     </control>
-    <control controlID="38" controlTypeID="com.balsamiq.mockups::Image" x="663" y="133" w="36" h="36" measuredW="77" measuredH="79" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Image" x="681" y="141" w="36" h="36" measuredW="77" measuredH="79" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <text>logo</text>
       </controlProperties>
@@ -150,31 +150,38 @@
         <text>Total%20data%09%3A%20100%20row%28s%29</text>
       </controlProperties>
     </control>
-    <control controlID="58" controlTypeID="com.balsamiq.mockups::ModalScreen" x="649" y="130" w="794" h="498" measuredW="320" measuredH="240" zOrder="26" locked="false" isInGroup="-1"/>
-    <control controlID="60" controlTypeID="com.balsamiq.mockups::Canvas" x="842" y="288" w="446" h="194" measuredW="100" measuredH="70" zOrder="27" locked="false" isInGroup="-1">
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Button" x="796" y="591" w="110" h="24" measuredW="92" measuredH="27" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>38362</color>
+        <size>16</size>
+        <text>Download</text>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::ModalScreen" x="651" y="128" w="794" h="498" measuredW="320" measuredH="240" zOrder="27" locked="false" isInGroup="-1"/>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Canvas" x="844" y="286" w="446" h="194" measuredW="100" measuredH="70" zOrder="28" locked="false" isInGroup="-1">
       <controlProperties>
         <borderColor>38362</borderColor>
       </controlProperties>
     </control>
-    <control controlID="61" controlTypeID="com.balsamiq.mockups::DataGrid" x="854" y="339" w="-1" h="-1" measuredW="422" measuredH="81" zOrder="28" locked="false" isInGroup="-1">
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::DataGrid" x="856" y="337" w="-1" h="-1" measuredW="422" measuredH="81" zOrder="29" locked="false" isInGroup="-1">
       <controlProperties>
         <alternateRowColor>15134199</alternateRowColor>
         <text>Type%2C%20Package%20ID%2C%20Weight%20%28gram%29%2C%20Price%2C%20Insurance%2C%20AWB%0AInternal%2C%20001%2C100%2CRp.%20xxxxxx%2C010%2C100%0AJNE%2C%20001%2C100%2C%20Rp.%20xxxxxx%2C%20010%2C100</text>
       </controlProperties>
     </control>
-    <control controlID="62" controlTypeID="com.balsamiq.mockups::Button" x="1179" y="435" w="94" h="32" measuredW="64" measuredH="27" zOrder="29" locked="false" isInGroup="-1">
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Button" x="1181" y="433" w="94" h="32" measuredW="64" measuredH="27" zOrder="30" locked="false" isInGroup="-1">
       <controlProperties>
         <color>38362</color>
         <size>16</size>
         <text>Close</text>
       </controlProperties>
     </control>
-    <control controlID="63" controlTypeID="com.balsamiq.mockups::Label" x="856" y="305" w="77" h="-1" measuredW="60" measuredH="21" zOrder="30" locked="false" isInGroup="-1">
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Label" x="858" y="303" w="77" h="-1" measuredW="60" measuredH="21" zOrder="31" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Row%09%3A%201</text>
       </controlProperties>
     </control>
-    <control controlID="64" controlTypeID="com.balsamiq.mockups::Label" x="1147" y="303" w="132" h="-1" measuredW="110" measuredH="21" zOrder="31" locked="false" isInGroup="-1">
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::Label" x="1149" y="301" w="132" h="-1" measuredW="110" measuredH="21" zOrder="32" locked="false" isInGroup="-1">
       <controlProperties>
         <align>right</align>
         <text>Status%09%3A%20Balanced</text>
