@@ -1,29 +1,45 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1093" measuredH="703" mockupW="800" mockupH="600">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1093" measuredH="703" mockupW="1093" mockupH="703">
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="293" y="103" w="800" h="600" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
         <text>A%20Web%20Page%0Ahttp%3A//</text>
       </controlProperties>
     </control>
-    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="512" y="333" w="343" h="171" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
-    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="547" y="377" w="-1" h="-1" measuredW="72" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="-1" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::HRule" x="568" y="373" w="250" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Username%20%3A%20</text>
+        <color>38362</color>
       </controlProperties>
     </control>
-    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="547" y="422" w="-1" h="-1" measuredW="66" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::HRule" x="568" y="437" w="250" h="-1" measuredW="100" measuredH="10" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Password%20%3A%20</text>
+        <color>38362</color>
       </controlProperties>
     </control>
-    <control controlID="5" controlTypeID="com.balsamiq.mockups::TextInput" x="629" y="375" w="125" h="-1" measuredW="79" measuredH="26" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="579" y="346" w="-1" h="-1" measuredW="195" measuredH="26" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
-        <text/>
+        <color>6710886</color>
+        <size>18</size>
+        <text>Employee%20ID/Username</text>
       </controlProperties>
     </control>
-    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextInput" x="630" y="421" w="125" h="-1" measuredW="79" measuredH="26" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="579" y="411" w="-1" h="-1" measuredW="77" measuredH="26" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
-        <text/>
+        <color>6710886</color>
+        <size>18</size>
+        <text>Password</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Button" x="576" y="471" w="235" h="36" measuredW="66" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>38362</color>
+        <size>18</size>
+        <text>Login</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Image" x="653" y="222" w="80" h="83" measuredW="77" measuredH="79" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logo</text>
       </controlProperties>
     </control>
   </controls>
