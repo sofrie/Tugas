@@ -1,0 +1,32 @@
+role:
+admin
+tim Recon Blibli
+checker 
+approver 
+
+menu:
+smua ada combo box buat tahun dan bulan
+-dashboard -- berisi summary dari bulan sekarang, atau bisa pilih bulan dan tahun dari combo box.
+summary berisi jumlah data bermasalah pada bulan yg dipilih, jumlah data yg benar, total biaya -- kalau bisa pakai chart
+-AWB (kyk view) -- download data bermasalah , download semua data (buat dikirim ke logistik), bisa filter data (yg sudah benar dan yg salah)
+-upload (upload data excel) -- akan menampilkan progress bar untuk mengetahui sudah berapa banyak data yg di-upload
+-creeate approval (checker)
+-aproval (approval)
+-create user (admin)
+
+proses:
+login -- memasukkan username dan password, ketika berhasil maka akan di generate token sebagai session untuk login user tersebut
+setelah login akan menampilkan dashboard yang berisi summary
+
+-user 1 (pihak dari JNE) akan melakukan upload file excel
+- menyamakan data dengan tagihan Blibli, jika biaya JNE lebih rendah, maka yang dipakai adalah biaya dari JNE
+- jika ada data yg berbeda dan harga Blibli > harga JNE, diberi flas pada DB
+- data yang salah akan diperbaiki, kemudian di upload lagi hingga sama
+- jika kedua data sudah sama, maka dapat di submit supaya dapat diperiksa oleh checker
+
+Checker----
+- mengecek apakah data sudah benar, jika sudah benar maka dapat send approval untuk ditindaklanjuti oleh approver
+
+Approver----
+- melakukan approve jika data sudah benar. Data yg sudah di approve tidak dapat dirubah lagi dan pada batch tersebut tidak dapat dimasukkan data lagi.
+
