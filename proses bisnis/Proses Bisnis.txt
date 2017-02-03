@@ -1,0 +1,18 @@
+Invoice Reconciliation:
+- Open Bravo 
+- 3PL
+
+Aktor :
+- Admin (bisa menentukan user yg dapat melakukan invoice reconciliation)
+- User
+
+Fitur :
+- upload file 3PL excel
+- upload file excel blibli
+- membandingkan data:
+	- hitung total shipping cost (total excel)
+	- membandingkan berat, price, packaging, insurance, AWB, package ID
+- correction page upload
+- download merge data
+- report match & unmatch data
+
