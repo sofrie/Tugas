@@ -1,8 +1,7 @@
 role:
-admin
 tim Recon Blibli
 checker 
-approver 
+approver (admin)
 
 menu:
 smua ada combo box buat tahun dan bulan
@@ -12,7 +11,7 @@ summary berisi jumlah data bermasalah pada bulan yg dipilih, jumlah data yg bena
 -upload (upload data excel) -- akan menampilkan progress bar untuk mengetahui sudah berapa banyak data yg di-upload
 -creeate approval (checker)
 -aproval (approval)
--create user (admin)
+-create user (approval)
 
 proses:
 login -- memasukkan username dan password, ketika berhasil maka akan di generate token sebagai session untuk login user tersebut
