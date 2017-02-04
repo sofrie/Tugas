@@ -146,11 +146,11 @@
         <color>38362</color>
       </controlProperties>
     </control>
-    <control controlID="49" controlTypeID="com.balsamiq.mockups::IconLabel" x="337" y="442" w="-1" h="-1" measuredW="56" measuredH="47" zOrder="24" locked="false" isInGroup="-1">
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::IconLabel" x="345" y="451" w="-1" h="-1" measuredW="32" measuredH="47" zOrder="24" locked="false" isInGroup="-1">
       <controlProperties>
         <color>16777215</color>
         <icon>SquaredPlusIcon%7Cmedium</icon>
-        <text>Add%20User</text>
+        <text>User</text>
       </controlProperties>
     </control>
   </controls>

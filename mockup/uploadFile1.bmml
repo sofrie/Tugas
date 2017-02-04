@@ -28,71 +28,100 @@
         <color>38362</color>
       </controlProperties>
     </control>
-    <control controlID="45" controlTypeID="com.balsamiq.mockups::Canvas" x="299" y="178" w="132" h="92" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderColor>16777215</borderColor>
-        <color>16777215</color>
-      </controlProperties>
-    </control>
-    <control controlID="46" controlTypeID="com.balsamiq.mockups::IconLabel" x="341" y="193" w="-1" h="-1" measuredW="48" measuredH="63" zOrder="6" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>38362</color>
-        <icon>AddPageIcon%7Clarge</icon>
-        <text>Upload</text>
-      </controlProperties>
-    </control>
-    <control controlID="47" controlTypeID="com.balsamiq.mockups::Canvas" x="299" y="267" w="132" h="92" measuredW="100" measuredH="70" zOrder="7" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderColor>16777215</borderColor>
-        <borderStyle>square</borderStyle>
-        <color>38362</color>
-      </controlProperties>
-    </control>
-    <control controlID="48" controlTypeID="com.balsamiq.mockups::IconLabel" x="329" y="282" w="-1" h="-1" measuredW="72" measuredH="63" zOrder="8" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>16777215</color>
-        <icon>FileIcon%7Clarge</icon>
-        <text>View%20Report</text>
-      </controlProperties>
-    </control>
-    <control controlID="49" controlTypeID="com.balsamiq.mockups::Canvas" x="299" y="356" w="132" h="92" measuredW="100" measuredH="70" zOrder="9" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderColor>16777215</borderColor>
-        <color>38362</color>
-      </controlProperties>
-    </control>
-    <control controlID="50" controlTypeID="com.balsamiq.mockups::IconLabel" x="320" y="371" w="-1" h="-1" measuredW="91" measuredH="63" zOrder="10" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>16777215</color>
-        <icon>DocExcelIcon%7Clarge</icon>
-        <text>Export%20to%20Excel</text>
-      </controlProperties>
-    </control>
-    <control controlID="51" controlTypeID="com.balsamiq.mockups::Button" x="638" y="398" w="235" h="36" measuredW="117" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Button" x="638" y="398" w="235" h="36" measuredW="117" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <color>38362</color>
         <size>18</size>
         <text>Choose%20File</text>
       </controlProperties>
     </control>
-    <control controlID="52" controlTypeID="com.balsamiq.mockups::Icon" x="691" y="256" w="-1" h="-1" measuredW="128" measuredH="128" zOrder="12" locked="false" isInGroup="-1">
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::Icon" x="691" y="256" w="-1" h="-1" measuredW="128" measuredH="128" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <color>38362</color>
         <icon>DocExcelIcon%7Cxxlarge</icon>
       </controlProperties>
     </control>
-    <control controlID="53" controlTypeID="com.balsamiq.mockups::Button" x="638" y="448" w="235" h="36" measuredW="89" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Button" x="638" y="448" w="235" h="36" measuredW="89" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <color>38362</color>
         <size>18</size>
         <text>Process</text>
       </controlProperties>
     </control>
-    <control controlID="54" controlTypeID="com.balsamiq.mockups::Tooltip" x="990" y="178" w="72" h="51" measuredW="81" measuredH="0" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Tooltip" x="990" y="178" w="72" h="51" measuredW="81" measuredH="0" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <text>Profile%0ALogout</text>
         <tooltipDirection>NE</tooltipDirection>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Canvas" x="300" y="243" w="132" h="66" measuredW="100" measuredH="70" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <color>16777215</color>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::IconLabel" x="342" y="258" w="-1" h="-1" measuredW="42" measuredH="47" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>38362</color>
+        <icon>AddPageIcon%7Cmedium</icon>
+        <text>Upload</text>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Canvas" x="300" y="308" w="132" h="66" measuredW="100" measuredH="70" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <borderStyle>square</borderStyle>
+        <color>38362</color>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::IconLabel" x="345" y="318" w="-1" h="-1" measuredW="32" measuredH="47" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>FileIcon%7Cmedium</icon>
+        <text>AWB</text>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Canvas" x="300" y="178" w="132" h="66" measuredW="100" measuredH="70" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <borderStyle>square</borderStyle>
+        <color>38362</color>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::IconLabel" x="330" y="193" w="-1" h="-1" measuredW="64" measuredH="47" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>TableIcon%7Cmedium</icon>
+        <text>Dashboard</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::ComboBox" x="643" y="216" w="-1" h="-1" measuredW="73" measuredH="24" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>closed</state>
+        <text>Januari%0AFebruari%0AMaret</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::ComboBox" x="798" y="218" w="-1" h="-1" measuredW="59" measuredH="24" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>closed</state>
+        <text>2017%0A2018</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Label" x="708" y="191" w="-1" h="-1" measuredW="40" measuredH="24" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Batch</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="594" y="218" w="-1" h="-1" measuredW="43" measuredH="21" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Bulan%20%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Label" x="752" y="218" w="-1" h="-1" measuredW="46" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Tahun%20%3A%20</text>
       </controlProperties>
     </control>
   </controls>
