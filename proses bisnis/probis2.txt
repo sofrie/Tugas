@@ -29,3 +29,16 @@ Checker----
 Approver----
 - melakukan approve jika data sudah benar. Data yg sudah di approve tidak dapat dirubah lagi dan pada batch tersebut tidak dapat dimasukkan data lagi.
 
+Teknis:
+- Diusahakan menggunakan Postgre.sql
+- SPA Page using Vue.js
+- Pengganti session pada SPA page -> tabel token yang menyimpan data login user
+
+Database sementara:
+- User
+- AWB
+- Token
+- Log
+
+Deadline next week:
+- Menyesuaikan mockup dengan perubahan proses bisnis
