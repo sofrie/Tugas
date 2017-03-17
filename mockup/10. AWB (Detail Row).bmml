@@ -151,41 +151,55 @@
         <color>38362</color>
       </controlProperties>
     </control>
-    <control controlID="83" controlTypeID="com.balsamiq.mockups::IconLabel" x="683" y="192" w="-1" h="-1" measuredW="64" measuredH="47" zOrder="26" locked="false" isInGroup="-1">
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::IconLabel" x="683" y="192" w="-1" h="-1" measuredW="64" measuredH="47" zOrder="28" locked="false" isInGroup="-1">
       <controlProperties>
         <color>16777215</color>
         <icon>TableIcon%7Cmedium</icon>
         <text>Dashboard</text>
       </controlProperties>
     </control>
-    <control controlID="90" controlTypeID="com.balsamiq.mockups::ModalScreen" x="649" y="125" w="794" h="498" measuredW="320" measuredH="240" zOrder="27" locked="false" isInGroup="-1"/>
-    <control controlID="91" controlTypeID="com.balsamiq.mockups::Canvas" x="842" y="283" w="446" h="194" measuredW="100" measuredH="70" zOrder="28" locked="false" isInGroup="-1">
+    <control controlID="90" controlTypeID="com.balsamiq.mockups::ModalScreen" x="649" y="125" w="794" h="498" measuredW="320" measuredH="240" zOrder="29" locked="false" isInGroup="-1"/>
+    <control controlID="91" controlTypeID="com.balsamiq.mockups::Canvas" x="842" y="283" w="513" h="194" measuredW="100" measuredH="70" zOrder="30" locked="false" isInGroup="-1">
       <controlProperties>
         <borderColor>38362</borderColor>
       </controlProperties>
     </control>
-    <control controlID="92" controlTypeID="com.balsamiq.mockups::DataGrid" x="854" y="334" w="-1" h="-1" measuredW="422" measuredH="81" zOrder="29" locked="false" isInGroup="-1">
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::DataGrid" x="854" y="334" w="-1" h="-1" measuredW="493" measuredH="81" zOrder="31" locked="false" isInGroup="-1">
       <controlProperties>
         <alternateRowColor>15134199</alternateRowColor>
-        <text>Type%2C%20Package%20ID%2C%20Weight%20%28gram%29%2C%20Price%2C%20Insurance%2C%20AWB%0AInternal%2C%20001%2C100%2CRp.%20xxxxxx%2C010%2C100%0AJNE%2C%20001%2C100%2C%20Rp.%20xxxxxx%2C%20010%2C100</text>
+        <text>Type%2C%20Package%20ID%2C%20Weight%20%28gram%29%2C%20Price%2C%20Insurance%2C%20AWB%2C%20Service%0AInternal%2C%20001%2C100%2CRp.%20xxxxxx%2C010%2C100%2CCTC15%0AA%20Logistic%2C%20001%2C100%2C%20Rp.%20xxxxxx%2C%20010%2C100%2CCTC15</text>
       </controlProperties>
     </control>
-    <control controlID="93" controlTypeID="com.balsamiq.mockups::Button" x="1179" y="430" w="94" h="32" measuredW="64" measuredH="27" zOrder="30" locked="false" isInGroup="-1">
+    <control controlID="93" controlTypeID="com.balsamiq.mockups::Button" x="1179" y="430" w="94" h="32" measuredW="64" measuredH="27" zOrder="32" locked="false" isInGroup="-1">
       <controlProperties>
         <color>38362</color>
         <size>16</size>
         <text>Close</text>
       </controlProperties>
     </control>
-    <control controlID="94" controlTypeID="com.balsamiq.mockups::Label" x="856" y="300" w="77" h="-1" measuredW="60" measuredH="21" zOrder="31" locked="false" isInGroup="-1">
+    <control controlID="94" controlTypeID="com.balsamiq.mockups::Label" x="856" y="300" w="77" h="-1" measuredW="60" measuredH="21" zOrder="33" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Row%09%3A%201</text>
       </controlProperties>
     </control>
-    <control controlID="95" controlTypeID="com.balsamiq.mockups::Label" x="1147" y="298" w="132" h="-1" measuredW="110" measuredH="21" zOrder="32" locked="false" isInGroup="-1">
+    <control controlID="95" controlTypeID="com.balsamiq.mockups::Label" x="1147" y="298" w="132" h="-1" measuredW="110" measuredH="21" zOrder="34" locked="false" isInGroup="-1">
       <controlProperties>
         <align>right</align>
         <text>Status%09%3A%20Balanced</text>
+      </controlProperties>
+    </control>
+    <control controlID="96" controlTypeID="com.balsamiq.mockups::Canvas" x="653" y="370" w="132" h="66" measuredW="100" measuredH="70" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <borderStyle>square</borderStyle>
+        <color>38362</color>
+      </controlProperties>
+    </control>
+    <control controlID="97" controlTypeID="com.balsamiq.mockups::IconLabel" x="696" y="380" w="-1" h="-1" measuredW="46" measuredH="47" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>TruckIcon%7Cmedium</icon>
+        <text>Logistic</text>
       </controlProperties>
     </control>
   </controls>

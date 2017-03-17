@@ -88,5 +88,19 @@
         <text>Dashboard</text>
       </controlProperties>
     </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Canvas" x="288" y="367" w="132" h="66" measuredW="100" measuredH="70" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <borderStyle>square</borderStyle>
+        <color>38362</color>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::IconLabel" x="331" y="377" w="-1" h="-1" measuredW="46" measuredH="47" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>TruckIcon%7Cmedium</icon>
+        <text>Logistic</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>

@@ -5,11 +5,11 @@
         <text>A%20Web%20Page%0Ahttp%3A//</text>
       </controlProperties>
     </control>
-    <control controlID="30" controlTypeID="com.balsamiq.mockups::DataGrid" x="796" y="288" w="613" h="288" measuredW="626" measuredH="111" zOrder="1" locked="false" isInGroup="-1">
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::DataGrid" x="796" y="288" w="613" h="288" measuredW="765" measuredH="111" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
         <hLines>true</hLines>
         <selectedIndex>0</selectedIndex>
-        <text>Row%28s%29%20%5E%2C%20Package%20ID%20%5E%2CWeight%20%28gram%29%20%5E%2C%20Price%20%5E%2C%20Insurance%20%5E%2C%20AWB%20%5E%2CStatus%2CAction%0A1%2C001%2C100%2C%20Rp.%20xxxxxxxxxxxxx%2C%20010%2C%20100%2C%20%20%20%2C%20Detail%0A2%2C002%2C200%2C%20Rp.%20xxxxxxxxxxxxx%2C%20020%2C%20200%2C%20%20%20%2C%20Detail%0A3%2C003%2C300%2C%20Rp.%20xxxxxxxxxxxxx%2C%20030%2C%20300%2C%20%20%20%2C%20Detail</text>
+        <text>Row%20%5E%2C%20Package%20ID%20%5E%2CWeight%20%28gram%29%20%5E%2C%20Price%20%5E%2C%20Insurance%20%5E%2C%20AWB%20%5E%2CService%20%5E%2C%20Status%2C%20Discount%2C%20VAT%2CAction%0A1%2C001%2C100%2C%20Rp.%20xxxxxxxxxxx%2C%20010%2C%20100%2CCTC15%2C%20%2C%20%2C%20%2CDetail%0A2%2C002%2C200%2C%20Rp.%20xxxxxxxxxxx%2C%20020%2C%20200%2CREG15%2C%20%2C%20%2C%20%2CDetail%0A3%2C003%2C300%2C%20Rp.%20xxxxxxxxxxx%2C%20030%2C%20300%2CREG15%2C%20%2C%20%2C%20%2CDetail</text>
       </controlProperties>
     </control>
     <control controlID="32" controlTypeID="com.balsamiq.mockups::Icon" x="1331" y="583" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
@@ -24,17 +24,17 @@
         <icon>RightArrowIcon%7Csmall</icon>
       </controlProperties>
     </control>
-    <control controlID="34" controlTypeID="com.balsamiq.mockups::Icon" x="1319" y="313" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Icon" x="1259" y="314" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <icon>CheckMarkIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
-    <control controlID="35" controlTypeID="com.balsamiq.mockups::Icon" x="1319" y="374" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Icon" x="1259" y="373" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <icon>CheckMarkIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
-    <control controlID="36" controlTypeID="com.balsamiq.mockups::Icon" x="1319" y="344" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Icon" x="1259" y="346" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <icon>XIcon%7Cxsmall</icon>
       </controlProperties>
@@ -156,6 +156,20 @@
         <color>16777215</color>
         <icon>TableIcon%7Cmedium</icon>
         <text>Dashboard</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Canvas" x="653" y="370" w="132" h="66" measuredW="100" measuredH="70" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <borderStyle>square</borderStyle>
+        <color>38362</color>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::IconLabel" x="696" y="380" w="-1" h="-1" measuredW="46" measuredH="47" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>TruckIcon%7Cmedium</icon>
+        <text>Logistic</text>
       </controlProperties>
     </control>
   </controls>

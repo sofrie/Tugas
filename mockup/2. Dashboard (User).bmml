@@ -1,6 +1,6 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1107" measuredH="654" mockupW="813" mockupH="600">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1107" measuredH="655" mockupW="813" mockupH="600">
   <controls>
-    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="294" y="54" w="800" h="600" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="300" y="55" w="800" h="600" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
         <text>A%20Web%20Page%0Ahttp%3A//</text>
       </controlProperties>
@@ -114,15 +114,47 @@
         <text>Submit</text>
       </controlProperties>
     </control>
-    <control controlID="65" controlTypeID="com.balsamiq.mockups::TextArea" x="483" y="300" w="553" h="205" measuredW="200" measuredH="140" zOrder="19" locked="false" isInGroup="-1">
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::TextArea" x="469" y="359" w="579" h="205" measuredW="200" measuredH="140" zOrder="19" locked="false" isInGroup="-1">
       <controlProperties>
         <size>16</size>
         <text>Summary</text>
       </controlProperties>
     </control>
-    <control controlID="66" controlTypeID="com.balsamiq.mockups::DataGrid" x="483" y="328" w="553" h="177" measuredW="207" measuredH="51" zOrder="20" locked="false" isInGroup="-1">
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::DataGrid" x="469" y="387" w="579" h="177" measuredW="609" measuredH="51" zOrder="20" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Batch%20%5E%2C%20Benar%20%5Ev%2C%20Salah%20v%0AJanuari%202017%2C%20500%2C%20100</text>
+        <text>Batch%20%20%20%20%5E%2C%20Benar%20%5E%2C%20Salah%20v%2C%20Jumlah%20Tagihan%20%5E%2C%20Logistic%20%5E%2C%20Status%20%5E%2C%20Last%20Modified%20%5E%0AJanuari%202017%2C%20500%2C%20100%2C%20Rp.%20x.xxx.xxx%2C%20A%20Logistic%20%2C%20Not%20Approved%2C%203%20Februari%202017</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::ComboBox" x="834" y="309" w="-1" h="-1" measuredW="110" measuredH="24" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>closed</state>
+        <text>Not%20Approved%0AApproved%0AChecked%0AAll</text>
+      </controlProperties>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Label" x="790" y="311" w="-1" h="-1" measuredW="41" measuredH="21" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Filter%20%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::ComboBox" x="959" y="309" w="-1" h="-1" measuredW="89" measuredH="24" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>closed</state>
+        <text>A%20Logistic%0AB%20Logistic%0AC%20Logistic</text>
+      </controlProperties>
+    </control>
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::Canvas" x="300" y="373" w="132" h="66" measuredW="100" measuredH="70" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <borderStyle>square</borderStyle>
+        <color>38362</color>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::IconLabel" x="343" y="383" w="-1" h="-1" measuredW="46" measuredH="47" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>TruckIcon%7Cmedium</icon>
+        <text>Logistic</text>
       </controlProperties>
     </control>
   </controls>

@@ -177,5 +177,19 @@
         <text>View</text>
       </controlProperties>
     </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Canvas" x="300" y="373" w="132" h="66" measuredW="100" measuredH="70" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <borderStyle>square</borderStyle>
+        <color>38362</color>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::IconLabel" x="343" y="383" w="-1" h="-1" measuredW="46" measuredH="47" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>TruckIcon%7Cmedium</icon>
+        <text>Logistic</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
