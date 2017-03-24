@@ -1,0 +1,153 @@
+Resources:
+- User
+- Logistic
+- AWB (Air Way Bills):
+	* Mengambil data id
+	* Mengambil data per batch dan logistic per page (v)
+	* Mengambil data search (match, unmatch) (v)
+	* Menambah data
+	* Menghapus data
+	* Mengambil data status (uploaded,checked,approved) (v)
+	* Mengambil data based on user (v)
+	* Mengubah data
+- Invoices -> statistic in dashboard
+
+Panggil di client:
+OkHTTP -> ObjectMapper
+
+Field Number:
+
+
+Admin:
+- Tambah tabel logistic
+
+API:
+/batches/{id}/rows
+/batches/{id}/rows/{rowid}
+untuk mengembalikan data diset per page
+/batches/{id}/rows/{page}/{pageid}
+- GET dan DELETE tidak ada request body
+
+Kenapa harus pakai request body?
+1. Tidak kasat mata
+2. Dienkripsi SSL
+
+Sebuah response dapat:
+- single data
+- multiple data
+
+Contoh:
+Standard Response
+
+{
+	"code"	: numeric,
+	"status": "message",
+	"list"	: [], //response list
+	"data"	: {}, //response single object
+	"paging": {
+		     "page":1,
+		     "item_page":100,
+		     "total_page":33
+		  }
+}
+
+Contoh:
+
+{
+	"code"	: 200,
+	"status": "OK",
+	"list"	: [
+		     {
+			"id":"JNE",
+			"name":"XXX"
+		     },
+		     {
+			"id":"JNE2",
+			"name":"XXXX"
+		     }
+		  ]
+	"paging": {
+		     "page":1,
+		     "item_page":100,
+		     "total_page":33
+		  }
+}
+
+API SPEC - Logistic
+
+- List of Logistic
+	Method	:	GET
+	URL	:	/api/logistics
+	Request
+	Param	:	?page={page}&pagesize={size}
+	Body
+	Response:	
+{
+	"code"	: 200,
+	"status": "OK",
+	"list"	: [
+		     {
+			"id":"JNE",
+			"name":"XXX"
+		     },
+		     {
+			"id":"JNE2",
+			"name":"XXXX"
+		     }
+		  ]
+	"paging": {
+		     "page":1,
+		     "item_page":100,
+		     "total_page":33
+		  }
+}
+	
+Create New Logistic
+	Method:	POST
+	URL	:	/api/logistics
+	Request
+	Body	:	{
+				"id":"JNE",
+				"name":"Jalur Nugraha Ekakurir"
+			}
+	Response
+	Body	:	{
+				"code":200,
+				"status":"message",
+				"data":{
+					"id":"JNE",
+					"name":"Jalur Nugraha Ekakurir"				
+				}
+			}
+
+Update Existing Logistic
+	Method	:	PUT
+	URL	:	/api/logistics/{id}
+	Request
+	Body	:	{
+				"name":"Jalur Nugraha Ekakurir v2"
+			}
+
+Remove Existing Logistic
+	Method:	DELETE
+	URL	:	/api/logistics/{id}
+
+Login User
+	Method	:	POST
+	URL	:	/api/users/_login	//custom api spec
+	Request
+	Body	:	{
+				"username"="",
+				"password"=""
+			}
+	Response
+	Body	:	{
+				"code":200,
+				"status":"OK",
+				"data":
+					{
+					   "username":"",
+					   "name":"a",
+					   "role":"admin"
+					}
+			}

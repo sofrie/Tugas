@@ -1,0 +1,124 @@
+Di dalam model, buat kelas:
+
+public class Response<T>{
+	- int code
+	- string status
+	- List<T> list
+	- T data
+	- Paging paging
+}
+
+
+public class Paging{
+	- int page
+	- int item_page
+	- int total_page
+}
+
+public class Logistic{
+	- string id
+	- string name
+}
+
+public class CreateLogistic{
+	- string id
+	- string name
+}
+
+public class UpdateLogistic{
+	- string name
+}
+
+Di dalam controller, buat kelas:
+
+@RestController
+public class LogisticController{
+
+	//api/logistics/
+	@RequestMapping(value="/api/logistics", method=RequestMethod.GET)
+	public Response<Logistic> list(@RequestParam(value="page",defaultvalue="1") int page, @RequestParam(value="item_page",defaultvalue="100") int item_page){
+		Response<Logistic> response=new Response<>();
+		response.setCode(200);
+		response.setStatus("OK");
+		response.setList(Arrays.asList(
+			new Logistic("JNE","JNE"),
+			new Logistic("POS","PT. POS")
+		));
+		response.setPaging(
+			new Paging(page, item_page,33)
+		);
+		return response;
+	}
+
+	//api/logistics
+	//create data
+	@RequestMapping(value="/api/logistics", method=RequestMethod.POST)
+	public Response<Logistic> create(@RequestBody CreateLogistic request){
+		Response<Logistic> response=new Response<>();
+		response.setCode(200);
+		response.setStatus("OK");
+		response.setData(
+			Logistic logistic=new Logistic(request.getId(),request.getName());
+		);
+		return response;
+		
+		//aslinya
+		//gunakan try catch jika ada error
+		//akan lebih baik jika terdapat validasi checking
+		//lihat method validate
+		try{
+			Response<Logistic> response=new Response<>();
+			response.setCode(200);
+			response.setStatus("OK");
+			response.setData(
+				Logistic logistic=new Logistic(request.getId(),request.getName());
+			);
+			return response;
+		}
+		catch(IllegalArgumentException throwable){
+			Response<Logistic> response=new Response<>();
+			response.setCode(400);
+			response.setStatus(throwable.getMessage());
+			return response;
+		}
+		catch(Throwable throwable){
+			Response<Logistic> response=new Response<>();
+			response.setCode(500);
+			response.setStatus(throwable.getMessage());
+			return response;
+		}
+	}
+	
+	//update
+	@RequestMapping(value="/api/logistics/{id}", method=RequestMethod.PUT)
+	public Response<Logistic> update(@PathVariable("id") String id, @RequestBody UpdateLogistic request){
+		Response<Logistic> response=new Response<>();
+		response.setCode(200);
+		response.setStatus("OK");
+		response.setData(
+			Logistic logistic=new Logistic(request.getId(),request.getName());
+		);
+		return response;
+	}
+	
+	//delete
+	@RequestMapping(value="/api/logistics/{id}", method=RequestMethod.DELETE)
+	public Response<Logistic> delete(@PathVariable("id") String id, @RequestBody UpdateLogistic request){
+		Response<Logistic> response=new Response<>();
+		response.setCode(200);
+		response.setStatus("OK");
+		response.setData(
+			Logistic logistic=new Logistic(request.getId(),request.getName());
+		);
+		return response;
+	}
+	
+	public void validateCreateRequest(CreateLogistic request){
+		if(request.getId()==null){
+			throw new IllegalArgumentException("Id tidak boleh kosong");
+		}
+		if(request.getName()==null){
+			throw new IllegalArgumentException("Name tidak boleh kosong");
+		}
+	}
+}
